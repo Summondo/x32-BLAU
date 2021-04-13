@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging F:\Uni\4 Semester\ACA\MicroController\target\scala-2.12\microcontroller_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ALU$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Uni\4 Semester\ACA\MicroController\target\scala-2.12\classes\ALU$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ALU.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Uni\4 Semester\ACA\MicroController\target\scala-2.12\classes\ALU.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataPath$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Uni\4 Semester\ACA\MicroController\target\scala-2.12\classes\DataPath$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataPath.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Uni\4 Semester\ACA\MicroController\target\scala-2.12\classes\DataPath.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InstDec$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Uni\4 Semester\ACA\MicroController\target\scala-2.12\classes\InstDec$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	InstDec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Uni\4 Semester\ACA\MicroController\target\scala-2.12\classes\InstDec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Memory$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Uni\4 Semester\ACA\MicroController\target\scala-2.12\classes\Memory$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Memory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Uni\4 Semester\ACA\MicroController\target\scala-2.12\classes\Memory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Register32$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Uni\4 Semester\ACA\MicroController\target\scala-2.12\classes\Register32$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Register32.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Uni\4 Semester\ACA\MicroController\target\scala-2.12\classes\Register32.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

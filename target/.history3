@@ -1,0 +1,52 @@
+1613485607768:testOnly Mux2Spec
+1613485709877:testOnly UseMux2Spec
+1613486435509:testOnly Mux4Spec
+1613486758166:testOnly DelaySpec
+1613487041198:testOnly UseMux2Spec
+1613487407997:testOnly Mux4Spec
+1613489432502:testOnly DelaySpec
+1613490376896:testOnly Count15Spec
+1613490523207:testOnly Count6Spec
+1613490742592:testOnly AccuSpec
+1613491016975:test
+1614090788074:help
+1614090794031:exit
+1616510512357:test
+1616510626233:cancel
+1616510628457:test
+1617268732507:compile
+1617275849344:testOnly RegisterSpec
+1617275881310:compile
+1617275883558:testOnly RegisterSpec
+1617275935917:compile
+1617275937420:testOnly RegisterSpec
+1617276311404:compile
+1617276313483:testOnly RegisterSpec
+1617276369516:compile
+1617276596907:testOnly RegisterSpec
+1617276738179:testOnly Register32Spec
+1617276782762:testOnly RegisterSpec
+1617277035604:testOnly ALUSpec
+1617277062258:testOnly Register32Spec
+1617277069730:exit
+1617277091830:testOnly Register32Spec
+1617277146449:testOnly RegisterSpec
+1617277689016:test
+1617278526327:testOnly RegisterSpec
+1617278998342:compile
+1617279907204:testOnly Register32Spec
+1617279911819:testOnly RegisterSpec
+1617279925667:testOnly Register32Spec
+1617354585124:compile
+1617719280258:testOnly ALUSpec
+1617719897209:testOnly InstDecSpec
+1617720426817:compile
+1617720430337:run
+1617720928489:testOnly InstDecSpec
+1617723883519:testOnly MemorySpec
+1618316886229:testOnly DatapathSpec
+1618318103906:compile
+1618318703434:testOnly DatapathTest0
+1618324645816:testOnly DatapathTest2
+1618327738080:testOnly DatapathTest3
+1618328242783:testOnly DatapathTest4
