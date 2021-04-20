@@ -47,18 +47,18 @@ class InstDecTest(dut: InstDec) extends PeekPokeTester(dut) {
     expect(dut.io.offset,1)
     step(1)
     
-    poke(dut.io.Instruction, 112) //"b00000000000000000000000001_110000"
+    poke(dut.io.Instruction, 112) //"b0000000000_00000000000_00001_110000"
     expect(dut.io.opcode,48)
-    expect(dut.io.aA,0)
+    expect(dut.io.aA,1)
     expect(dut.io.dA,0)
     expect(dut.io.bA,0)
-    expect(dut.io.immidiate,1)
+    expect(dut.io.immidiate,0)
     expect(dut.io.offset,0)
 
 }
 
 class InstDecSpec extends FlatSpec with Matchers {
-  "Register32 " should "pass" in {
+  "Instruction Decoder " should "pass" in {
     chisel3.iotesters.Driver(() => new InstDec) { c => new InstDecTest(c)} should be (true)
   }
 }

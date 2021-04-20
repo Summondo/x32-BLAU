@@ -5,7 +5,7 @@ class DatapathTestTest3(dut: Datapath) extends PeekPokeTester(dut) {
     poke(dut.io.test,3)
 
     step(1)//IF
-    expect(dut.io.OutInst, 496)
+    expect(dut.io.OutInst, 504)
 
     step(1)//ID IF
     expect(dut.io.InA,0)

@@ -50,3 +50,11 @@
 1618324645816:testOnly DatapathTest2
 1618327738080:testOnly DatapathTest3
 1618328242783:testOnly DatapathTest4
+1618925354328:testOnly ALUSpec
+1618927006028:testOnly DatapathTest3
+1618927045725:testOnly DatapathTest4
+1618927254597:testOnly DatapathTest4test
+1618927265004:test
+1618927340533:testOnly InstDecSpec
+1618932166373:gcc -c Assembler.c
+1618932181438:exit

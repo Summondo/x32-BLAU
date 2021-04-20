@@ -22,8 +22,8 @@ class ALU extends Module {
         is(4.U) {io.y := io.a & io.b}       //Bitwise AND a and b
         is(5.U) {io.y := io.a | io.b}       //Bitwise OR a and b 
         is(6.U) {io.y := io.a ^ io.b}       //Bitwise XOR a and b
-        is(7.U) {io.y := io.a * io.b}       //Multiply a and b
-        //is(8.U) {io.y := }
+        is(7.U) {io.y := ~io.a}             //Bitwise NOT a
+        is(8.U) {io.y := io.a * io.b}       //Multiply a and b
         //is(9.U) {io.y := }
         is(10.U) {io.y := io.a << io.b(6,0)}//Shift a to the left
         is(11.U) {io.y := io.a >> io.b(6,0)}//Shift a to the right

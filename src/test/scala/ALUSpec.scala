@@ -27,10 +27,10 @@ class ALUTest(dut: ALU) extends PeekPokeTester(dut) {
   expect(dut.io.y, 65  ^ 19 )
 
   poke(dut.io.fs, 7)
-  expect(dut.io.y, 65  * 19 )
+  expect(dut.io.y, ~65 )
 
   poke(dut.io.fs, 8)
-  expect(dut.io.y, 65  / 19 )
+  expect(dut.io.y, 65  * 19 )
 
   /*//is rest and not found out yet
   poke(dut.io.fs, 9)

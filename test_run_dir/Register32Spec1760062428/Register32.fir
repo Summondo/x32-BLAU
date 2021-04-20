@@ -1,0 +1,45 @@
+;buildInfoPackage: chisel3, version: 3.4.1, scalaVersion: 2.12.12, sbtVersion: 1.3.10
+circuit Register32 : 
+  module Register32 : 
+    input clock : Clock
+    input reset : UInt<1>
+    output io : {flip DataIn : SInt<32>, flip DA : UInt<5>, flip AA : UInt<5>, flip BA : UInt<5>, AOut : SInt<32>, BOut : SInt<32>}
+    
+    wire _WIRE : SInt<32>[32] @[Register32.scala 13:36]
+    _WIRE[0] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[1] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[2] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[3] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[4] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[5] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[6] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[7] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[8] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[9] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[10] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[11] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[12] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[13] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[14] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[15] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[16] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[17] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[18] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[19] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[20] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[21] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[22] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[23] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[24] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[25] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[26] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[27] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[28] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[29] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[30] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    _WIRE[31] <= asSInt(UInt<32>("h00")) @[Register32.scala 13:36]
+    reg Registers : SInt<32>[32], clock with : (reset => (reset, _WIRE)) @[Register32.scala 13:28]
+    Registers[io.DA] <= io.DataIn @[Register32.scala 15:22]
+    io.AOut <= Registers[io.AA] @[Register32.scala 16:13]
+    io.BOut <= Registers[io.BA] @[Register32.scala 17:13]
+    

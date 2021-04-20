@@ -1,19 +1,72 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RegisterSpec, org.scalatest.tools.Framework$$anon$1@31df9320, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ALUSpec, org.scalatest.tools.Framework$$anon$1@31df9320, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DatapathTest4, org.scalatest.tools.Framework$$anon$1@5a69eab7, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DatapathTest1, org.scalatest.tools.Framework$$anon$1@5a69eab7, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MemorySpec, org.scalatest.tools.Framework$$anon$1@5a69eab7, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(InstDecSpec, org.scalatest.tools.Framework$$anon$1@5a69eab7, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DatapathTest2, org.scalatest.tools.Framework$$anon$1@5a69eab7, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DatapathTest3, org.scalatest.tools.Framework$$anon$1@5a69eab7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMemorySpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRegister32 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DatapathTest7, org.scalatest.tools.Framework$$anon$1@5a69eab7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mInstDecSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRegister32 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should pass *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false was not true (InstDecSpec.scala:62)[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Register32Spec, org.scalatest.tools.Framework$$anon$1@5a69eab7, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DatapathTest6, org.scalatest.tools.Framework$$anon$1@5a69eab7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapathTest1:[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ALUSpec, org.scalatest.tools.Framework$$anon$1@5a69eab7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapath [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapathTest4:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapath [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapathTest3:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapath [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DatapathTest0, org.scalatest.tools.Framework$$anon$1@5a69eab7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapathTest2:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapath [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DatapathTest5, org.scalatest.tools.Framework$$anon$1@5a69eab7, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRegister32Spec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRegister32 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapathTest6:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapath [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mALUSpec:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mALU [0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mRegisterSpec:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mRegister32 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapathTest0:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapath [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapathTest5:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapath [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapathTest7:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDatapath [0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSummary for ScalaCheck not available.[0m
 [0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 507 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0mPassed: Total 2, Failed 0, Errors 0, Passed 2[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 4 seconds, 866 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 12[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 12, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 11, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 12, Failed 1, Errors 0, Passed 11[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatapathTest2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatapathTest7[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatapathTest5[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatapathTest0[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatapathTest6[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ALUSpec[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RegisterSpec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatapathTest4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatapathTest1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DatapathTest3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Register32Spec[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MemorySpec[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	InstDecSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

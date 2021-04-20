@@ -74,7 +74,13 @@ class InstDec extends Module{
 
         //Jump
         is(3.U){
-            io.immidiate := io.Instruction(31,6).asSInt
+            when(io.opcode(3) === 0.U){
+                io.offset       := io.Instruction(31,24).asSInt()
+                io.aA           := io.Instruction(10,6)
+            } 
+            .otherwise{
+                io.immidiate := io.Instruction(31,6).asSInt
+            }
         }
 
     }

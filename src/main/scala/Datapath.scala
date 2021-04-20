@@ -137,7 +137,7 @@ class Datapath extends Module {
                 offReg  := 0.S(32.W)
             }
         }
-        //Store-Load
+        //Load-Store
         is(2.U){
             val Address = AVal + offset
             //Load
@@ -166,7 +166,12 @@ class Datapath extends Module {
         } 
         //Jump
         is(3.U){
-            pc      := ImmReg(7,0)
+            when(opcode1(3) === 0.U){
+                pc      := (AVal + offset).asUInt
+            }
+            .otherwise{
+                pc      := ImmReg(7,0)
+            }
             yReg    := 0.S(32.W)
             InstReg := 0.U(32.W)
             AReg    := 0.S(32.W)
